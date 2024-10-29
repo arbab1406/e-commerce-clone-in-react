@@ -1,0 +1,112 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    margin: 10px;
+    border-radius: 20px;
+  }
+  
+  .logo img {
+    width: 100px; /* Adjust the width as needed */
+    height: auto; 
+    margin-left: 50px;
+
+  }
+  
+  .header-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon {
+    font-size: 22px;
+    margin-right: 20px;
+    cursor: pointer;
+    background: #F5F5F5;
+    border-radius: 50%;
+  }
+  
+  .country-dropdown {
+    margin-right: 20px;
+    padding: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .user-profile {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .user-name {
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+
+  /* CSS For drop down */
+  .country-dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .country-dropdown select {
+    padding: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .flag-container {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .flag {
+    width: 20px;
+    height: 15px;
+    margin: 5px;
+  }
+  
+  .country-dropdown:hover .flag-container {
+    display: block;
+  }
+  
+  .home-icon {
+    margin-right: 10px;
+    font-size: 24px;
+  }
+  .path {
+    font-size: 16px;
+    color: #333;
+  }
+
+  .text {
+    margin-right: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .select-option {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background:#024573;
+    color: #F5F5F5;
+    border-radius: 10px;
+
+  }

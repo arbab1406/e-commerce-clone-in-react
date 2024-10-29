@@ -1,0 +1,49 @@
+.main-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  background: white;
+  height: 300px;
+}
+
+.dashboard-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.dashboard {
+  flex: 2;
+  margin-right: 20px;
+}
+
+.details {
+  flex: 1;
+}
+
+.graph {
+  display: flex; /* Added */
+  justify-content: center; /* Added */
+  align-items: center; /* Added */
+  height: 200px;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 1px solid #ddd;
+  overflow: hidden; /* Ensure content doesn't overflow */
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
